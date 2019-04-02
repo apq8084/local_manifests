@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Common -->
+  <remove-project name="platform_frameworks_av" />
+  <remove-project name="platform_frameworks_base" />
+  <remove-project name="platform_frameworks_native" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
+  <project name="apq8084/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="aex-9.x" />
+  <project name="apq8084/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="github" revision="aex-9.x" />
+  <project name="apq8084/android_frameworks_av" path="frameworks/av" remote="github" revision="aex-9.x" />
+  <project name="apq8084/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aex-9.x" />
+  <project name="apq8084/android_kernel_samsung_apq8084" path="kernel/samsung/apq8084" remote="github" revision="lineage-16.0" />
+  <project name="apq8084/platform_frameworks_base" path="frameworks/base" remote="github" revision="aex-9.x" />
+  <project name="apq8084/platform_frameworks_native" path="frameworks/native" remote="github" revision="aex-9.x" />
+  <project name="apq8084/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+  <!-- TBLTE -->
+  <project name="apq8084/android_device_samsung_tblte" path="device/samsung/tblte" remote="github" revision="aex-9.x" />
+  <!-- TRLTE -->
+  <project name="apq8084/android_device_samsung_trlte" path="device/samsung/trlte" remote="github" revision="aex-9.x" />
+  <!-- TRLTEDuos -->
+  <project name="apq8084/android_device_samsung_trlteduos" path="device/samsung/trlteduos" remote="github" revision="aex-9.x" />
+</manifest>
