@@ -4,7 +4,6 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
   <project name="triplr-dev/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="github" revision="lineage-17.1" />
   <project name="triplr-dev/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-17.1" />
   <project name="triplr-dev/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
